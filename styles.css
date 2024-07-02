@@ -1,0 +1,95 @@
+nav, header, footer{
+    display: block;
+    background-color: rgb(70, 70, 243);
+}
+body{
+    background-color: rgb(250, 246, 246);
+    line-height: 1;
+    margin: 0%;
+}
+
+nav{
+    width: 100%;
+    margin: 0;
+}
+
+nav ul{
+    background-color: blue;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul.topnav li{
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: beige;
+}
+/*########################## Mobile ################*/
+@media   screen and (max-width: 680px) {
+    ul.topnav li :not(:nth-child(1)){
+        display: none;
+    }
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: right;
+    }
+    ul.topnav.topnav.responsive{
+        position: relative;
+    }
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li {
+        display: block;
+        text-align: left;
+    }
+}
+/*####################### custom style ###################*/
+.container {
+    text-align: right,center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(250, 246, 246);
+    width: 100%;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.links a {
+    display: block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+h1.large {
+    overflow: auto;
+    color: blue;
+    font-size: 300%;
+    margin: 0%;
+    line-height: 70px;
+}

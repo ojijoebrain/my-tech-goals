@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> MY TECH GOALS </title>
+    <link rel="stylesheet"href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+          <li> <a href="#Home">Home</a></li>
+          <li><a href="#Profile">Profile</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Social Activies">Social Activies</a></li>
+          <li class="nav-profile">
+                <ul class="sub-profile">
+                    <li class="sub-profile"><a href="#">slack-Email</a></li>
+                    <li class="sub-profile"><a href="#">slack-DisplayName</a></li>
+                </ul>
+        </ul>
+       </nav>
+       <div class="container">
+           <div class="Profile">
+            <img src="./image/oji.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture" width="150" height="150">
+            <p data-testid="slackDisplayName">@Joe</p>
+            <p data-testid="slackEmai">Ojijosephoji@gmail.com</p>
+            <h1 class="large"> MY TECH GOALS FOR THE NEXT 2 YEARS </h1>
+
+            <div class="goals">
+                <ul>
+                    <li>Goal 1: <span data-testid="goal1">Become proficient in React and build at least 5 major projects using it.</span></li>
+                    <li>Goal 2: <span data-testid="goal2">Contribute to open-source projects and make meaningful contributions to the community.</span></li>
+                    <li>Goal 3: <span data-testid="goal3">Earn certifications in cloud computing platforms like AWS or Google Cloud.</span></li>
+                    <li>Goal 4: <span data-testid="goal4">Improve my understanding of data structures and algorithms to excel in coding interviews.</span></li>
+                    <li>Goal 5: <span data-testid="goal5">Attend tech conferences and workshops to network and stay updated with the latest trends.</span></li>
+                </ul>
+            </div>
+
+            <div class="datetime">
+                <p>Current Time (UTC): <span id="currentTimeUTC" data-testid="currentTimeUTC"></span></p>
+                <p>Current Day: <span id="currentDay" data-testid="currentDay"></span></p>
+            </div>
+
+            <div class="links">
+                <a href="https://hng.tech/learn" data-testid="hngLink">HNG Tech Learn</a>
+                <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+                <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+            </div>
+        </div>
+        <script src="script.js"></script>
+       </div>
+  
+</body>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
