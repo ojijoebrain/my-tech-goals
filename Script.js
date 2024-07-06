@@ -1,4 +1,3 @@
-
 function updateTime() {
     const now = new Date();
     const utcTime = now.toUTCString().slice(-12, -4);
@@ -11,4 +10,3 @@ function updateTime() {
 
 setInterval(updateTime, 1000);
 updateTime();
-
